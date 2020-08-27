@@ -1,0 +1,111 @@
+/**globales**/
+body{
+    
+    font-size: 1.6rem;
+    line-height: 2;
+    background-image: url(/img/fondo-principal.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    color: white;
+    font-size: 20px;
+    margin: 1rem;
+}
+
+h3{
+    margin: 1rem;
+    font-size: 1rem;
+}
+img{
+    max-width: 100%;
+    
+
+}
+
+a{
+    text-decoration: none;
+
+}
+
+p{
+    font-size: 1.2rem;
+    margin: 0.3rem;
+
+}
+
+strong{
+    font-size: 5rem;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    color: white;
+    font-size: 0.6rem;
+    padding: 0.5rem;
+}
+/**genereles**/
+
+.clase-body{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.p1{
+
+    background-color: #C3CAC9;
+    border-radius: 20px;
+    margin: 1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 100%;
+   
+}
+
+.p2{
+
+    background-color: #C3CAC9;
+    border-radius: 20px;
+    margin: 1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: inherit;
+    height: 100%;
+   
+}
+
+.navegacion{
+    background-color:  #C3CAC9;
+}
+
+.enlaces{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.1rem;
+    list-style: none;
+    padding: 1rem;
+    
+}
+
+.aside{
+    background-color: lightblue;
+}
+.p-final{
+
+        font-weight: 700;
+}
+aside p{
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-style: italic;
+}
